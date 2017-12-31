@@ -8,6 +8,8 @@ its thing.
 I used physical pins 4(5V) 6 (GND) 3(Data SDA) 6(Clock SCL) on the raspberry pi. Make sure you run raspi-config to 
 change the hostname (for tracking multiple nodes), password, and enable I2C used by the MCP chip. 
 
+With this node I used a 3D printed case from Thejustintimer (Props) https://www.thingiverse.com/thing:1904529 and DB taped a zero to the base. File is attached if you are too lazy to follow the HL.
+
 After building a node I usually scp (scp -r /home/pi/lcd (newnode):/home/pi/) the runtime directory to a new node 
 from one of the already running nodes and run all of the install steps. I know I am lazy.
 
