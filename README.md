@@ -12,7 +12,7 @@ change the hostname (for tracking multiple nodes), password, and enable I2C used
 
 With this node I used a 3D printed case from Thejustintimer (Props) https://www.thingiverse.com/thing:1904529 and DB taped a zero to the base. File is attached if you are too lazy to follow the HL.
 
-![alt text](Node_b_rear.png "Not my best side")
+![alt text](Node_b_rear.jpg "Not my best side")
 
 After building a node I usually scp (scp -r /home/pi/lcd (newnode):/home/pi/) the runtime directory to a new node 
 from one of the already running nodes and run all of the install steps. I know I am lazy.
