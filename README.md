@@ -1,6 +1,6 @@
 # Vera Endnode B
 
-Wall mounted End node for the Vera using a Raspberry Pi Zero W, Adafruit Arduino RGB 16x2 LCD shield, and a splash of python. 
+Small table top end node for the Vera using a Raspberry Pi Zero W, Adafruit Arduino RGB 16x2 LCD shield, and a splash of python. 
 Displays Date time, weather, and the current mode. Changes Vera modes with the 5 bottons using the built in and documented 
 Vera API calls. Does not require anything to be installed on the Vera, this simply sits in the same subnet/vlan and does 
 its thing.
